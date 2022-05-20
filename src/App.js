@@ -1,13 +1,13 @@
+import React from 'react';
+import { Header } from './components/Header.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
         <section className="mainCointainer">
-      <header className="mainHeader">
-         <h1>ToDoApp</h1>
-         <p>Aplication for task management</p>
-      </header>
+           <Header />
+  
          <section className="mainBody">
             <form className="mainForm">
                <section className="titleComponent">Create</section>
