@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Sections = ({ title, task }) => {
+export const States = ({ title, task, style }) => {
   
   
   return (
-    <div>
+    <div className={style}>
       <h1>{title}</h1>
       <div className="whiteSpace"></div>
       <section>{ task}</section>
