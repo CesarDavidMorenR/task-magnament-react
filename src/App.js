@@ -6,13 +6,16 @@ import { Sections } from './components/Sections.js'
 // import './App.css';
 
 function App() {
+   const todo = 'sd'
+   const done = 'sfff'
+
   return (
     <div className="App">
       <section className="mainCointainer">
         <Header />
            <Form />
-           <Sections title='Todo' />
-           <Sections title='Done' />
+           <Sections title='Todo' task={ todo }/>
+           <Sections title='Done' task= { done } />
       </section>
       <Footer />
     </div>
