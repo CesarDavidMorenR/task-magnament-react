@@ -51,7 +51,8 @@ function App() {
                      </tr>
                     </tbody>
             </table>
-            </section>
+         </section>
+        
         <section>
                <br />
                <table>
@@ -85,8 +86,9 @@ function App() {
                 </tr>
                 </tbody>
                </table>
-       </section>
-         <footer class="mainFooter">
+         </section>
+         
+        <footer class="mainFooter">
         <p>All rights reserved (Develop on 2022). Make by David Moreno with HTML, CSS, and JavaScript</p>
          {/* <!-- Hecho el Jueves 10/02/2022--> */}
          </footer>
