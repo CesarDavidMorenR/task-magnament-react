@@ -6,6 +6,10 @@ import { States } from './components/States.js'
 // import './App.css';
 
 function App() {
+
+
+  // if submit in the form a done create card in state todo --other button DONE in the card it creates a card.......
+  // push submit create a state
    const todo = 'sd'
    const done = 'sfff'
 
